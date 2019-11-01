@@ -7,7 +7,7 @@
 Add the following dependency to your build.gradle:
 ```gradle
 dependencies {
-   implementation 'com.github.shuboooom:pingMeLive:1.0'
+implementation 'com.github.shuboooom:roundedDialog:1.0'
 }
 ```
 
