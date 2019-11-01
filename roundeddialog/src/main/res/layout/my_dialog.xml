@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:gravity="start"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="start"
+        />
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:gravity="start"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="15sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="end">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:text="Cancel"
+            android:clickable="true"
+            android:background="@drawable/ripple_colorless"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:stateListAnimator="@null"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/ripple"
+            android:text="Done"
+            android:textColor="#fff"
+            android:stateListAnimator="@null"
+            android:layout_marginEnd="15dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

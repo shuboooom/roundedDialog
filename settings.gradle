@@ -1,0 +1,2 @@
+include ':app', ':roundeddialog'
+rootProject.name='roundedDialog'
